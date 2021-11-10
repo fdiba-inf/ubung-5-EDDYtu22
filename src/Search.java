@@ -7,16 +7,16 @@ public class Search {
         int i;
         int sCounter = 0;
 
-        System.out.print("Enter the number of elements: ");
+        //System.out.print("Enter the number of elements: ");
         int size = input.nextInt();
 
         int numbers[] = new int[size];
 
         for (i = 0; i < numbers.length; i++) {
-            System.out.print("Enter value for " + i + " element: ");
+            //System.out.print("Enter value for " + i + " element: ");
             numbers[i] = input.nextInt();
         }
-        System.out.print("Witch element are you searching for? ");
+        //System.out.print("Witch element are you searching for? ");
         int searchedNumber = input.nextInt();
 
 
