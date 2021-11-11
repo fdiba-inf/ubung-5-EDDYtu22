@@ -23,8 +23,6 @@ public class UniqueNumbers {
 
         int[] uniqueNumbers = new int[numbers.length];
 
-
-
         for (int i = 1; i < numberCount; i++) {
             for (int j = 0; j < numberCount; j++) {
                 if (numbers[i] == uniqueNumbers[j]){
@@ -35,12 +33,6 @@ public class UniqueNumbers {
                 }
             }
         }
-
-
-
-
-
-
 
             String uniqueNumbersAsString = Arrays.toString(uniqueNumbers);
             System.out.println("Unique numbers: " + uniqueNumbersAsString);
