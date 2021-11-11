@@ -23,7 +23,7 @@ public class UniqueNumbers {
 
         int[] uniqueNumbers = new int[numbers.length];
 
-        numbers[0] = uniqueNumbers[0];
+        //numbers[0] = uniqueNumbers[0];
 
         for (int i = 1; i < numberCount; i++) {
             for (int j = 0; j < numberCount; j++) {
