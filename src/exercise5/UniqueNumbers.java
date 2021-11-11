@@ -20,8 +20,9 @@ public class UniqueNumbers {
         for (int index = 0; index < numbers.length; index++) {
             numbers[index] = input.nextInt();
         }
-
         int[] uniqueNumbers = new int[numbers.length];
+
+        uniqueNumbers[0] = numbers[0];
 
         for (int i = 1; i < numberCount; i++) {
             for (int j = 0; j < numberCount; j++) {
@@ -34,8 +35,22 @@ public class UniqueNumbers {
             }
         }
 
+
+
+
             String uniqueNumbersAsString = Arrays.toString(uniqueNumbers);
             System.out.println("Unique numbers: " + uniqueNumbersAsString);
 
     }
 }
+
+/*for (int i = 1; i < numberCount; i++) {
+        for (int j = 0; j < numberCount; j++) {
+        if (numbers[i] == uniqueNumbers[j]){
+        break;
+        }else if (uniqueNumbers[j] == 0){
+        uniqueNumbers[j] = numbers[i];
+        break;
+        }
+        }
+        }*/
