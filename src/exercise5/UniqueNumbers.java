@@ -11,12 +11,12 @@ public class UniqueNumbers {
 
 
 
-        System.out.print("Enter number count: ");
+        //System.out.print("Enter number count: ");
         int numberCount = input.nextInt();
 
         int[] numbers = new int[numberCount];
 
-        System.out.println("Enter numbers: ");
+        //System.out.println("Enter numbers: ");
         for (int index = 0; index < numbers.length; index++) {
             numbers[index] = input.nextInt();
         }
